@@ -16,6 +16,7 @@
 - 💻 Hands-on experience with **Linux, Docker, Kubernetes, Jenkins, Vagrant, AWS, and Git/GitHub Actions**.
 - 🚀 Building automated cloud workflows, Infrastructure as Code (IaC), and resilient deployment architectures.
 - 🔭 Currently working on: **Cloud ETL Pipelines & Microservice Infrastructure Automation**.
+- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/ankitpandey18) &bull; [Email](mailto:ankitpandeyboss36@gmail.com)
 - ⚡ Philosophy: *If a task takes more than two clicks, automate it!*
 
 ---
@@ -57,7 +58,7 @@
 ### 🤝 Connect with Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/a2fusion46" target="_blank">
+  <a href="https://www.linkedin.com/in/ankitpandey18" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>&nbsp;&nbsp;
   <a href="mailto:ankitpandeyboss36@gmail.com">
