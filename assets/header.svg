@@ -1,53 +1,101 @@
-<svg width="100%" height="100%" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="50%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#090d16" />
+    <!-- Background Gradient -->
+    <linearGradient id="cyberBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b14" />
+      <stop offset="50%" stop-color="#0d1124" />
+      <stop offset="100%" stop-color="#060810" />
     </linearGradient>
-    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.7" />
-      <stop offset="50%" stop-color="#2563eb" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.7" />
+
+    <!-- Aurora Waves -->
+    <linearGradient id="auroraWave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#9D4EDD" stop-opacity="0.9" />
     </linearGradient>
-    <linearGradient id="wave2" x1="100%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.1" />
+
+    <linearGradient id="auroraWave2" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#D946EF" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#7B2CBF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.2" />
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#93c5fd" />
+
+    <linearGradient id="auroraWave3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#D946EF" stop-opacity="0.3" />
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+
+    <!-- Title Gradient -->
+    <linearGradient id="neonTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="40%" stop-color="#00F2FE" />
+      <stop offset="75%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#D946EF" />
+    </linearGradient>
+
+    <!-- Subtitle Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#9D4EDD" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="900" height="220" rx="16" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+  <!-- Container Base -->
+  <rect width="900" height="230" rx="16" fill="url(#cyberBg)" stroke="#1f293d" stroke-width="1.5" />
 
-  <!-- Background Wave 2 -->
-  <path d="M0,150 C150,190 350,110 500,160 C650,210 800,130 900,170 L900,220 L0,220 Z" fill="url(#wave2)" />
+  <!-- Neon Grid Accents -->
+  <g opacity="0.15" stroke="#00F2FE" stroke-width="0.8">
+    <line x1="60" y1="0" x2="60" y2="230" stroke-dasharray="4 4" />
+    <line x1="840" y1="0" x2="840" y2="230" stroke-dasharray="4 4" />
+    <line x1="0" y1="40" x2="900" y2="40" stroke-dasharray="4 4" />
+  </g>
 
-  <!-- Background Wave 1 -->
-  <path d="M0,165 C200,130 400,200 600,155 C750,120 850,170 900,160 L900,220 L0,220 Z" fill="url(#wave1)" />
+  <!-- Ambient Light Orbs -->
+  <circle cx="200" cy="50" r="80" fill="#00F5D4" opacity="0.07" filter="url(#neonGlow)" />
+  <circle cx="700" cy="60" r="100" fill="#9D4EDD" opacity="0.08" filter="url(#neonGlow)" />
 
-  <!-- Decorative Tech Nodes -->
-  <circle cx="80" cy="50" r="3" fill="#60a5fa" opacity="0.6" />
-  <circle cx="120" cy="80" r="2" fill="#38bdf8" opacity="0.4" />
-  <circle cx="820" cy="60" r="3" fill="#60a5fa" opacity="0.6" />
-  <circle cx="780" cy="100" r="2" fill="#38bdf8" opacity="0.4" />
-  <line x1="80" y1="50" x2="120" y2="80" stroke="#3b82f6" stroke-width="0.8" opacity="0.3" />
-  <line x1="820" y1="60" x2="780" y2="100" stroke="#3b82f6" stroke-width="0.8" opacity="0.3" />
+  <!-- Aurora Wave 3 (Deep) -->
+  <path d="M0,130 C180,180 320,110 500,150 C680,190 780,120 900,160 L900,230 L0,230 Z" fill="url(#auroraWave3)" />
 
-  <!-- Main Name Text -->
-  <text x="450" y="85" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="url(#textGrad)" letter-spacing="2">
+  <!-- Aurora Wave 2 (Mid) -->
+  <path d="M0,155 C220,115 380,195 580,140 C720,100 820,165 900,150 L900,230 L0,230 Z" fill="url(#auroraWave2)" />
+
+  <!-- Aurora Wave 1 (Front Bright) -->
+  <path d="M0,175 C160,145 360,205 520,165 C680,125 800,180 900,170 L900,230 L0,230 Z" fill="url(#auroraWave1)" />
+
+  <!-- Circuit Nodes Left -->
+  <circle cx="90" cy="65" r="4" fill="#00F5D4" opacity="0.8" filter="url(#neonGlow)" />
+  <circle cx="140" cy="100" r="3" fill="#00F2FE" opacity="0.6" />
+  <circle cx="70" cy="115" r="2.5" fill="#D946EF" opacity="0.7" />
+  <line x1="90" y1="65" x2="140" y2="100" stroke="#00F5D4" stroke-width="1" opacity="0.4" />
+  <line x1="90" y1="65" x2="70" y2="115" stroke="#D946EF" stroke-width="1" opacity="0.3" />
+
+  <!-- Circuit Nodes Right -->
+  <circle cx="810" cy="65" r="4" fill="#D946EF" opacity="0.8" filter="url(#neonGlow)" />
+  <circle cx="760" cy="100" r="3" fill="#9D4EDD" opacity="0.6" />
+  <circle cx="830" cy="115" r="2.5" fill="#00F2FE" opacity="0.7" />
+  <line x1="810" y1="65" x2="760" y2="100" stroke="#D946EF" stroke-width="1" opacity="0.4" />
+  <line x1="810" y1="65" x2="830" y2="115" stroke="#00F2FE" stroke-width="1" opacity="0.3" />
+
+  <!-- Role Pill Container -->
+  <rect x="300" y="28" width="300" height="26" rx="13" fill="url(#pillGrad)" stroke="#00F5D4" stroke-width="1" stroke-opacity="0.5" />
+  <text x="450" y="45" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#00F5D4" letter-spacing="2.5">
+    ⚡ DEVOPS &amp; CLOUD ARCHITECT
+  </text>
+
+  <!-- Name Title with Neon Glow -->
+  <text x="450" y="98" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="900" fill="url(#neonTitleGrad)" letter-spacing="3" filter="url(#neonGlow)">
     ANKIT PANDEY
   </text>
 
   <!-- Subtitle Tagline -->
-  <text x="450" y="125" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#79c0ff" letter-spacing="1.5">
-    DevOps &amp; Cloud Engineer  |  Linux · Docker · Kubernetes · CI/CD · AWS
+  <text x="450" y="136" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#E2E8F0" letter-spacing="1.2">
+    Linux  •  Docker  •  Kubernetes  •  CI/CD  •  AWS  •  Python Automation
   </text>
 </svg>
