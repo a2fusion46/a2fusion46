@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=200&section=header&text=Ankit%20Pandey&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DevOps%20%26%20Cloud%20Engineer%20%7C%20Linux%20%C2%B7%20Docker%20%C2%B7%20Kubernetes%20%C2%B7%20AWS&descAlignY=58&descSize=18" width="100%" alt="Header banner" />
+  <img src="assets/header.svg" width="100%" alt="Ankit Pandey - DevOps & Cloud Engineer" />
 </p>
 
 <p align="center">
   <a href="https://github.com/a2fusion46">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=79C0FF&center=true&vCenter=true&width=550&lines=DevOps+%26+Cloud+Infrastructure+Engineer;CI%2FCD+Pipelines+%26+Automated+Deployments;Docker+%C2%B7+Kubernetes+%C2%B7+AWS+%C2%B7+Linux;Building+Reliable+%26+Scalable+Cloud+Pipelines" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=79C0FF&center=true&vCenter=true&width=550&lines=DevOps+%26+Cloud+Infrastructure+Engineer;CI%2FCD+Pipelines+%26+Automated+Deployments;Docker+%C2%B7+Kubernetes+%C2%B7+AWS+%C2%B7+Linux;Building+Scalable+Cloud+Pipelines" alt="Typing SVG" />
   </a>
 </p>
 
@@ -14,9 +14,9 @@
 
 - 🎓 Passionate **DevOps & Cloud Engineer** specializing in containerization, cloud infrastructure, and CI/CD pipelines.
 - 💻 Hands-on experience with **Linux, Docker, Kubernetes, Jenkins, Vagrant, AWS, and Git/GitHub Actions**.
-- 🚀 Building automated cloud workflows, Infrastructure-as-Code (IaC), and resilient deployment architectures.
+- 🚀 Building automated cloud workflows, Infrastructure as Code (IaC), and resilient deployment architectures.
 - 🔭 Currently working on: **Cloud ETL Pipelines & Microservice Infrastructure Automation**.
-- ⚡ Fun fact: *If a task takes more than two clicks, automate it!*
+- ⚡ Philosophy: *If a task takes more than two clicks, automate it!*
 
 ---
 
@@ -41,8 +41,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=a2fusion46&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=79c0ff&text_color=c9d1d9&icon_color=79c0ff" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=a2fusion46&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=79c0ff&text_color=c9d1d9" alt="Top Languages" height="165" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=a2fusion46&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="GitHub Activity Graph" />
 </p>
 
 ---
@@ -70,9 +69,5 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=a2fusion46&color=1e3c72&style=flat&label=Profile+Views" alt="Profile views" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a5298,100:1e3c72&height=100&section=footer" width="100%" alt="Footer banner" />
+  <img src="assets/footer.svg" width="100%" alt="Footer banner" />
 </p>
